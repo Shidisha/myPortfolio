@@ -8,3 +8,23 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
+
+:root{
+    --text-color: #f6f6f6;
+    --hover-color: #12f712;
+    --bg-color: #343a40;
+    --secon-bg-color: #292e33;
+    --big-font: 2.5rem;
+    --norma-font: 2rem;
+    --neon-box-shadow: 0 0 .5rem #1267ff;
+    --h2-font: 3rem;
+    --font-neon-text-shadow: 0 0 10px rgba(18, 247, 255, 0.3),
+    0 0 20px rgba(18, 247, 255, 0.3),
+    0 0 30px rgba(18, 247, 255, 0.3),
+    0 0 40px rgba(18, 247, 255, 0.3),
+    0 0 70px rgba(18, 247, 255, 0.3),
+    0 0 80px rgba(18, 247, 255, 0.3),
+    0 0 100px rgba(18, 247, 255, 0.3),
+    0 0 150px rgba(18, 247, 255, 0.3),
+}
+
