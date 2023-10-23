@@ -27,6 +27,12 @@
     0 0 100px rgba(18, 247, 255, 0.3),
     0 0 150px rgba(18, 247, 255, 0.3),
 }
+/*configuration du corps du site*/
+body{
+    font-family: "poppins", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
 /*configuration de l'entete*/
 header{
     display: flex;
@@ -36,7 +42,7 @@ header{
     padding: 20px 10px;
     padding: 20px 10%;
 }
-
+/*le logo du site*/
 .logo{
     font-size: 20px;
     font-weight: 600;
@@ -45,6 +51,37 @@ header{
 
 span{
     color: var(--hover-color);
+}
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+color: var(--text-color);
+font-weight: 500;
+padding: 10px 20px;
+}
+
+.navlist a:hover{
+    color: var(--hover-color);
+    box-shadow: 
+    0 0 20px rgba(18, 247, 255, 0.6),
+    0 0 30px rgba(18, 247, 255, 0.6),
+    0 0 40px rgba(18, 247, 255, 0.6),
+    0 0 70px rgba(18, 247, 255, 0.6),
+    0 0 80px rgba(18, 247, 255, 0.6),
+    0 0 100px rgba(18, 247, 255, 0.6),
+    0 0 150px rgba(18, 247, 255, 0.6);
+}
+
+#menu{
+    font-size: 1.8rem;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    background: var(--hover-color);
+    border-radius: 3px;
+    color: var(--secon-bg-color);
 }
 
 
