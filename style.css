@@ -11,7 +11,7 @@
 /*configuration de root*/
 :root{
     --text-color: #f6f6f6;
-    --hover-color: #2112f7;
+    --hover-color: hwb(192 8% 9%);
     --bg-color: #343a40;
     --secon-bg-color: #292e33;
     --big-font: 2.5rem;
@@ -64,7 +64,7 @@ padding: 10px 20px;
 
 .navlist a:hover{
     color: var(--hover-color);
-    box-shadow: 
+    box-shadow: 0 0 10px rgba(18, 247, 255, 0.6),
     0 0 20px rgba(18, 247, 255, 0.6),
     0 0 30px rgba(18, 247, 255, 0.6),
     0 0 40px rgba(18, 247, 255, 0.6),
@@ -74,6 +74,7 @@ padding: 10px 20px;
     0 0 150px rgba(18, 247, 255, 0.6);
 }
 
+/*paramtre du menu*/
 #menu{
     font-size: 1.8rem;
     z-index: 10001;
@@ -85,3 +86,41 @@ padding: 10px 20px;
 }
 
 
+/*parametre de la section*/
+section{
+    padding:  100px 10%;
+}
+
+.home{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-gap: 4em;
+}
+.home-home{
+    max-width: 600px;
+}
+
+.img-box img{
+    height: 200px;
+    width: 140px;
+}
+
+.home-content h1{
+    font-size: var(--big-font);
+    font-weight: 700;
+}
+
+.change-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.change-text h3{
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
+}
