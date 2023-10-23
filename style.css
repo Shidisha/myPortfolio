@@ -100,7 +100,7 @@ section{
     align-items: center;
     grid-gap: 4em;
 }
-.home-home{
+.home-content{
     max-width: 600px;
 }
 
@@ -123,4 +123,10 @@ section{
     display: inline-flex;
     margin: 0;
     vertical-align: top;
+}
+
+.change-text h3 .word{
+    position: absolute;
+    display: flex;
+    opacity: 0;
 }
